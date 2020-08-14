@@ -1,0 +1,421 @@
+body{
+  background-color: #ebecf0 !important;
+  /* background-color: red; */
+}
+
+.singin-header{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.singin-header .content{
+  padding-top: 20px;
+}
+
+.content-title{
+  font-size: 24px;
+}
+
+.content-body{
+  font-size: 16px;
+  padding-top: 10px;
+  color: grey;
+}
+
+.singin-card{
+  background-color: white;
+  width: 50%;
+  height: 20%;
+  border-radius: 3px;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 30px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-container{
+	position:relative;
+  margin-bottom:20px;
+}
+
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  outline:0;
+}
+
+.input-container input:focus{ 
+ border:none;	
+ outline:0;
+ border-bottom:1px solid black;	
+}
+
+input:focus{
+  outline: red;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+  top:-12px;
+  border:none;	
+  outline:none;
+	font-size:12px;
+}
+
+.submit-button{
+  width: 60%;
+  background-color: blue;
+  padding: 10px;
+  border: none;
+  justify-content: center;
+  margin-left: 18%;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.submit-button:focus{
+  outline: none;
+  cursor: pointer;
+}
+
+.loading-div{
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.cre-card{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  margin-left: 30%;
+  margin-top: 6%;
+}
+
+.otpinput{
+  height: "120%";
+  width: "200%";
+  padding:"5px";
+  border: "none";
+  border-bottom: "2px solid green";
+}
+
+.otp-button{
+  margin-top: "10px";
+  width: "74%";
+  padding: "5px";
+  background-color: "blue";
+  border: "none";
+  color: "white";
+  font-size: "14px";
+}
+
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fixed-top{
+  overflow: hidden;
+  background-color: white;
+}
+
+.p10{
+  padding: 10px;
+}
+
+.slider {
+  height: 2px;
+  background-color: blue;
+  width: 0%;
+  transition: width 1s;
+}
+
+.underline {
+  color:blue;
+}
+.underline a{
+  color: black !important;
+}
+
+.underline:hover > .slider {
+  width: 100%;
+}
+
+.info-content{
+  width: 500px;
+  margin-left: 15px;
+  float: left;
+  background-color: #fef2d8;
+}
+
+.info-content-header{
+  background-color: #feeab8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  font-size:14px
+}
+
+.info-content-p{
+  padding: 10px;
+  
+}
+
+.info-content-body{
+  float: left;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.info-content-li{
+  width: 100%;
+  display: flex;
+  float: left;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.line-p{
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.register-link{
+  width: auto;
+  text-align: center;
+}
+
+.register-link a{
+  font-size: 12px;
+}
+
+.searchBox {
+  width: 30%;
+  background-color: white;
+}
+
+.m5{
+  margin-left: 5%;
+}
+
+.searchHeader{
+  padding: 10px;
+}
+
+.searchHeader-p{
+  font-size: 14px;
+  font: bold;
+  font-weight: 900;
+}
+
+.search-button{
+  padding-left: 65%;
+}
+
+.search-button:hover{
+  outline: none;
+}
+
+.amenitybox{
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  position: sticky;
+  top: 40px;
+  position: -webkit-sticky;
+}
+
+.search{
+  width: 100%;
+}
+
+.search-header{
+  display: flex;
+}
+
+.search-header-p{
+  font-size: 13px;
+  font-weight: 900;
+  padding-top: 20px;
+  width: 50%;
+}
+
+.search-header-span{
+  font-size: 12px;
+  padding-top: 20px;
+  color: grey;
+  padding-left: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.MuiFormControlLabel-root{
+  margin-Left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: -25px;
+}
+
+.MuiTypography-body1{
+  font-size: 12px !important;
+}
+
+.searchcontent{
+  width: 800px;
+}
+
+.searchcontent-div{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+}
+
+.searchcontent-div span{
+  margin-top: -15px;
+  font-size: 10px;
+  color: grey;
+  font-weight: 600;
+}
+
+.hr-tag{
+  width: 90%;
+}
+
+.hotel-card{
+  width: 95%;
+  margin-left: 25px;
+  display: flex;
+  background-color: white;
+  margin-top: 4%
+}
+
+.hotel-card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.hotel-card-img{
+  max-width: 150%;
+}
+
+.hotel-card-img img{
+  width: 246px;
+  height: 224px;
+}
+
+.hotel-car-details{
+  width: 60%;
+  /* background-color: red; */
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.hotel-car-details .name{
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.hotel-car-details .rating{
+  padding-top: 3px;
+}
+
+.MuiRating-decimal{
+  font-size: 18px;
+}
+
+.amenities{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.amenities-icons .icons{
+  font-size: 15px;
+}
+
+.amenities-icons{
+  font-size: 13px;
+}
+
+.hotel-price{
+  width: 20%;
+  text-align: right;
+}
+
+.hotel-price-p{
+  padding-top: 30%;
+  font-size: 27px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.hotel-price-div{
+  font-size: 12px;
+  margin-top: -15%;
+  padding-right: 13px;
+}
+
+.hotel-price-button{
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.hotel-price-button button{
+  font-size: 10px;
+}
+
+.leftarrow-icon{
+  font-size: 25px;
+  color: grey;
+  transition: color 1s;
+}
+
+.back-icon {
+  font-size: 14px;
+}
+
+.back-icon a{
+  color: black;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.back-icon a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.leftarrow-icon:hover{
+  color: red;
+}
+
+.w8{
+  width: 90%;
+  /* background-color: red; */
+}
+
+.hotel-name{
+  font-size: 1.429em;
+  font-weight: 600;
+}
+
+.flex-d{
+  display: flex;
+}
+
+.rating{
+  padding-top: 10px;
+}
